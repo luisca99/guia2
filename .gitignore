@@ -19,11 +19,12 @@ local.properties
 .classpath
 .project
 .metadata
-tmp/**
+html/**
+html/*
 .DS_Store
 *.tmp
 *.bak
-tmp/**/*
+html/**/*
 *.swp
 *~.nib
 Thumbs.db
