@@ -229,6 +229,3 @@ $('#ref2').click(function() {
       
     });
 });
-function doSygic() {
-  document.location='com.sygic.aura://coordinate|-3.6987818|40.416539|drive';
-}
