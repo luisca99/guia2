@@ -18,3 +18,19 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+.metadata
+tmp/**
+.DS_Store
+*.tmp
+*.bak
+tmp/**/*
+*.swp
+*~.nib
+Thumbs.db
+Desktop.ini
+*~
+*.apk
+bin
+gen
+local.properties
+*.jar
