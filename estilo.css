@@ -1,0 +1,1260 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* CABECERA */
+a, a:active, a:visited 
+{ 
+    color: #fff; 
+    text-decoration:none
+}
+#cabecera{
+	
+	height:100px;
+}
+#bandera1{
+	float:left;
+	position:relative;
+	width:20%;
+	top:15px;
+}
+#cabecera_texto{
+	float:left;
+	position:relative;
+	width:60%;
+	top:0px;
+}
+#bandera2{
+	float:left;
+	position:relative;
+	width:20%;
+	top:15px;
+	
+}
+/* fin CABECERA */
+
+/* CONDICIONES Y PIE */
+#Condiciones{
+	float:left;
+	position:relative;
+	height:327px;
+}
+#pie_1{
+	height:65px;
+}
+#piebot{
+	position:relative;
+	top:-17px;
+}
+#buk{
+	cursor:pointer;
+}
+#titulon{
+	font-size:22px;
+}
+#botonde{
+	display:none;
+}
+#botonuk{
+	display:none;
+}
+#botonfr{
+	display:none;
+}
+/* FIN DE CONDICIONES y PIE*/
+
+/* FONDO NEGRO Y PUBLICIDAD */
+#colornegro{
+	float:left;
+	position:relative;
+
+	width:100%;
+	padding: 0px;
+}
+#publicidad_1{
+	float:left;
+	position:relative;
+	width:100%;
+	height:340px;
+	padding-top: 25px;
+	background-color:#000;
+}
+#primera{
+	float:left;
+	position:relative;
+	height:300px;
+	width:33%;
+}
+#segunda{
+	float:left;
+	position:relative;
+	height:300px;
+	width:34%;
+	margin-left:1px;	
+}
+#tercera{
+	float:left;
+	position:relative;
+	height:300px;
+	width:33%;
+}
+#derecha{
+	float:right;
+	position:relative;
+	height:300px;
+	width:67%;
+}
+#izquierda{
+	float:left;
+	position:relative;
+	height:300px;
+	width:67%;
+}
+#centro{
+	float:left;
+	position:relative;
+	height:300px;
+	width:100%;
+}
+/* Fin FONDO NEGRO Y PUBLICIDAD */
+
+/* BOTONES RECOMENDADOS, BANDERAS, BOTONES (COMER, VISITAR, TRANSPORTE y OCIO)  */
+#barrabaja{
+	float:left;
+	position:relative;
+	top:27px;
+	width:100%;
+	background:#FFF;	
+}
+/* EL TIEMPO NO VISIBLE
+#eltiempomini{
+	float:left;
+	position:relative;
+	clear:both;
+	height:50px;
+	width:7.5%;
+	left:15px;
+	padding-top:15px;
+}
+#trnsp{
+	position:absolute;
+	left:-5px;
+}
+#tiempodialog{
+	position:relative;
+	left:-177px;
+}
+#trnsp2{
+	position:absolute;
+	left: 50px;
+}
+*/
+/* MENU PIE PRINCIPAL */
+#bajo1{
+	float:left;
+	position:relative;
+	height:100px;
+	width:20%;
+	left:-5px;
+	background-color:#FFF;
+}
+#recomendado{
+	float:left;
+	position:relative;
+	clear:both;
+	height:50px;
+	width:100%;
+	padding-top:0px;
+	top:-2px;
+}
+#banderas{
+	float:left;
+	position:relative;
+	height:50px;
+	width:100%;
+	padding-top:12px;
+}
+#Boton_fondo{
+	float: left;
+	position: relative;
+	width:75%;
+	right:10px;
+	background-color:#fff;
+}
+#quevisitar{
+	float:left;
+	position:relative;
+	height:100px;
+	width:20%;
+	
+}
+#dondecomer{
+	float:left;
+	position:relative;
+	height:100px;
+	width:20%;
+}
+#ocio{
+	float:left;
+	position:relative;
+	height:100px;
+	width:20%;
+}
+#transporte{
+	float:left;
+	position:relative;
+	height:100px;
+	width:20%;
+}
+#volverhotel{
+	float:left;
+	position:relative;
+	top:10px;
+	right:5px;
+	
+	height:100px;
+	width:10%;
+}
+#sos{
+	float:left;
+	position:relative;
+	top:10px;
+	right:-50px;
+	height:100px;
+	width:10%;
+}
+#largo{
+	float:left;
+	position:relative;
+	height:380px;
+	width:97.1%;
+}
+/* Fin MENU PIE PRINCIPAL */
+
+/*  FIN DE PAGINA PRINCIPAL */
+
+/*  MUSEOS ( MONUMENTO, RENT CAR, Se utiliza en varios sitios ) */
+#caja{
+	float:left;
+	position:relative;
+	height:380px;
+	width:100%;
+
+}
+#caja_texto{
+	float:left;
+	position:relative;
+	height:380px;
+	width: 65%;
+}
+#texto{
+	float:left;
+	position:relative;
+	clear: both;
+	font-size: 13px;
+	font-family: Verdana;
+	width: 95%;
+	height:130px;
+	overflow-y:scroll;
+	background: rgba(35,31,33,0.2);
+	border-radius:5px;
+	padding:4px;
+	text-align: justify;
+}
+#texto_2{
+	float:left;
+	position:relative;
+	clear: both;
+	width: 96%;
+	height:150px;
+	font-size: 12px;
+	font-family: Verdana;
+	
+	text-align: justify;
+}
+#texto_3{
+	float:left;
+	position:relative;
+	clear: both;
+	width: 96%;
+	font-size: 14px;
+	font-family: Verdana;
+	text-align: justify;
+}
+#foto_museo{
+	float:left;
+	position:relative;
+	height:380px;
+	width: 32%;
+	background:url(images/Museos/reinasofia.jpg) no-repeat;
+	border-radius:10px;
+	box-shadow: 3px 3px 5px #888;
+}
+#ir_museo{
+	float:left;
+	position:absolute;
+	bottom: -15px;
+	right: 400px;
+}
+/*  MUSEOS ( MONUMENTO, RENT CAR, Se utiliza en varios sitios ) */
+/*  FIN DE PAGINA QUE VISITAR */
+
+/*  VACA ARGENTINA ( Se utiliza en varios sitios ) */
+#largo2{
+	float:left;
+	position:relative;
+	height:356px;
+	width:30%;
+	z-index:20;
+	left:30px;
+	border-radius:10px;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#b4b4b4), to(#707070));
+	
+}
+#vacafondo{
+	float:left;
+	position: absolute;
+	width:100%;
+	top:68px;
+	left:0px;
+	z-index:0;
+}
+#restorante{
+	float:left;
+	position: absolute;
+	width:100%;
+	height:418px;
+	left:0px;
+	top:-8px;
+	z-index:0;
+}
+#foto_vaca{
+	float:left;
+	position:relative;
+	height:240px;
+	top: 10px;
+	width: 31%;
+	background:url(images/LaVaca/vaca1.gif) no-repeat;
+	border-radius:10px;
+	box-shadow: 3px 3px 5px #888;
+}
+#ir_vaca{
+	float:left;
+	position:absolute;
+	bottom: -12px;
+	right: 350px;	
+}
+#foto_menu{
+	float:left;
+	position:relative;
+	top:40px;
+	width:200px;
+	height:60px;
+	left:60px;
+	background:url(images/LaVaca/menu.jpg) no-repeat;
+	z-index:300;
+	border-radius:10px;
+	color:#000;
+	box-shadow: 3px 3px 5px #888;
+}
+#foto_menu a{
+	float:left;
+	position:relative;
+	width:200px;
+	height:60px;
+}
+#largo8 ul li{
+	height:20px;
+}
+#largo8 ul li p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	margin-top:0px;
+}
+
+#largo8{
+	position:relative;
+	height:1050px;
+}
+/*  FIN VACA ARGENTINA ( Se utiliza en varios sitios ) */
+#largo3{
+	float:left;
+	position:relative;
+	height:380px;
+	width:100%;
+	z-index:20;
+}
+#largo3 ul li p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:700;
+	font-stretch:narrower;
+	margin-top:4px;
+}
+#largo3 ul li{
+	height:40px;
+}
+/* Se usa en JOY ESLAVA*/
+#largo4{
+	position:relative;
+	height:476px;
+	width:100%;
+	z-index:20;
+	padding:0;
+	overflow:hidden;
+}
+/* Fin JOY ESLAVA*/
+
+/* Se usa en MAPA BUS Y METRO */
+#largo5{
+	position:relative;
+	height:380px;
+	width:94%;
+	overflow:scroll;
+	left:16px;	
+}
+/* Fin MAPA BUS Y METRO */
+
+/* Botones TRANSPARENTES*/
+#botonirjoyeslava{
+	position:absolute;
+	width:80px;
+	height:30px;
+	top:133px;
+	left:840px;
+	z-index:100;
+}
+#botonirbolera{
+	position:absolute;
+	width:95px;
+	height:40px;
+	top:413px;
+	left:530px;
+	z-index:100;
+}
+#botonhotel{
+	position:absolute;
+	width:80px;
+	height:33px;
+	top:347px;
+	left:70px;
+	z-index:50;
+}
+#botonirterrazacasino{
+	position:absolute;
+	width:80px;
+	height:50px;
+	top:253px;
+	left:10px;
+	z-index:100;
+}
+#botonircluballard{
+	position:absolute;
+	width:75px;
+	height:50px;
+	top:33px;
+	left:350px;
+	z-index:100;
+}
+#botonirkabukiwellington{
+	position:absolute;
+	width:80px;
+	height:50px;
+	top:273px;
+	left:100px;
+	z-index:100;
+}
+#botonirwarner{
+	position:absolute;
+	width:90px;
+	height:40px;
+	top:93px;
+	left:900px;
+	z-index:100;
+}
+#botonirkinepolis{
+	position:absolute;
+	width:95px;
+	height:40px;
+	top:383px;
+	left:80px;
+	z-index:100;
+}
+#botonirteatroreal{
+	position:absolute;
+	width:95px;
+	height:40px;
+	top:403px;
+	left:130px;
+	z-index:100;
+}
+#botonirzara{
+	position:absolute;
+	width:95px;
+	height:40px;
+	top:366px;
+	left:810px;
+	z-index:100;
+}
+#botoniradolfodominguez{
+	position:absolute;
+	width:95px;
+	height:40px;
+	top:373px;
+	left:660px;
+	z-index:100;
+}
+#botonirloewe{
+	position:absolute;
+	width:95px;
+	height:40px;
+	top:390px;
+	left:280px;
+	z-index:100;
+}
+/* Boton JAVI */
+#botonirsergiarola{
+	z-index:2;
+	position:absolute;
+	width:120px;
+	height:50px;
+	/*border:solid 3px red;*/
+	margin-top:310px;
+	margin-left:0px;
+}
+#botonirramonfreixa{
+	z-index:2;
+	position:absolute;
+	width:120px;
+	height:50px;
+	/*border:solid 3px red;*/
+	margin-top:327px;
+	margin-left:755px;
+}
+#botonirsantceloni{
+	z-index:2;
+	position:absolute;
+	width:120px;
+	height:50px;
+	/*border:solid 3px red;*/
+	margin-top:327px;
+	margin-left:755px;
+}
+#botonirzalacain{
+	z-index:2;
+	position:absolute;
+	width:130px;
+	height:60px;
+	/*border:solid 3px red;*/
+	margin-top:233px;
+	margin-left:820px;
+}
+#botonirfaunia{
+		z-index:2;
+	position:absolute;
+	width:165px;
+	height:60px;
+	/*border:solid 3px red;*/
+	margin-top:390px;
+	margin-left:820px;
+}
+#botoniraquopolis{
+		z-index:2;
+	position:absolute;
+	width:145px;
+	height:60px;
+	/*border:solid 3px red;*/
+	margin-top:348px;
+	margin-left:580px;
+}
+#botonirnewgaramond{
+		z-index:2;
+	position:absolute;
+	width:135px;
+	height:60px;
+	/*border:solid 3px red;*/
+	margin-top:360px;
+	margin-left:270px;
+}
+#botonircortefiel{
+		z-index:2;
+	position:absolute;
+	width:125px;
+	height:60px;
+	/*border:solid 3px red;*/
+	margin-top:400px;
+	margin-left:874px;
+}
+#botonirjaviersimorra{
+		z-index:2;
+	position:absolute;
+	width:155px;
+	height:60px;
+	/*border:solid 3px red;*/
+	margin-top:400px;
+	margin-left:434px;
+}
+#botonirpuntroma{
+		z-index:2;
+	position:absolute;
+	width:125px;
+	height:60px;
+	/*border:solid 3px red;*/
+	margin-top:320px;
+	margin-left:680px;
+}
+/* FIn Boton JAVI */
+/* Fin Botones TRANSPARENTES*/
+
+/*  METRO */
+#foto_texto2 img{
+	float:left;
+	position:relative;
+	height:240px;
+	top: 40px;
+	left:20px;
+	width: 31%;
+	border-radius:10px;
+	box-shadow: 3px 3px 5px #888;
+}
+#boton_texto2{
+	position:relative;
+	top: 50px;
+}
+#caja_texto ul{
+	position:relative;
+	left:150px;
+	width: 55%;
+}
+#caja_texto ul li{
+	position:relative;
+	height:30px;
+}
+/*  Fin METRO */
+
+  /*  MONUMENTOS */
+#foto_cibeles{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/Cibeles.jpg);
+}
+#foto_puertadelsol{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/puertadelsol.jpg);
+}
+#foto_plazamayor{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/plazamayor.jpg);
+}
+#foto_plazadelavilla{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/plazadelavilla.jpg);
+}
+#foto_colegiatasanisidro{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/colegiatasanisidro.jpg);
+}
+#foto_sanfranciscogrande{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/sanfranciscogrande.jpg);
+}
+#foto_plazadeoriente{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/plazadeoriente.jpg);
+}
+#foto_palacioreal{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/palacioreal.jpg);
+}
+#foto_catedraldelaalmudena{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/catedraldelaalmudena.jpg);
+}
+#foto_plazadeespania{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/plazadeespania.jpg);
+}
+#foto_templodedebod{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/templodedebod.jpg);
+}
+#foto_granvia{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/granvia.jpg);
+}
+#foto_plazadecolon{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/plazadecolon.jpg);
+}
+#foto_puertadealcala{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/puertadealcala.jpg);
+}
+#foto_palaciodecristal{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/palaciodecristal.jpg);
+}
+#foto_fuentedeneptuno{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/fuentedeneptuno.jpg);
+}
+#foto_estaciondeatocha{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/estaciondeatocha.jpg);
+}
+#foto_plazadetorosventas{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/plazadetorosventas.jpg);
+}
+#foto_puentedetoledo{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/puentedetoledo.jpg);
+}
+#foto_puentedearganzuela{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/puentedearganzuela.jpg);
+}
+#foto_torrebbva{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/torrebbva.jpg);
+}
+#foto_torrepicasso{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/torrepicasso.jpg);
+}
+#foto_cuatrotorres{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/cuatrotorres.jpg);
+}
+/*  FIN MONUMENTOS */
+
+/* General */
+#largo_recomendado{
+	position:relative;
+	height:330px;
+	width:280px;
+	border-radius:10px;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3b3b3b), to(#525252));
+	box-shadow: 3px 3px 5px #888;
+	margin:0;
+	padding:0;
+}
+#largox{
+	position:relative;
+	height:265px;	
+	overflow:scroll;
+}
+/*  FIN General */
+
+/*  EVENTOS ANUALES */
+#largo_recomendado_2{
+	position:relative;
+	height:375px;
+	width:200px;
+	top:0px;
+	border-radius:10px;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3b3b3b), to(#525252));
+	box-shadow: 3px 3px 5px #888;
+	margin:0;
+	padding:0;
+	z-index:100;
+}
+#largox_2{
+	position:relative;
+	height:305px;	
+	overflow:scroll;
+	z-index:100;
+}
+#largo_eventos{
+	float:left;
+	position:relative;
+	height:380px;
+	width:97.1%;
+	overflow:hidden;
+	background-image: url(images/Eventos/Eventomadrid.gif);
+}
+#envento_info_mes{
+	position:relative;
+	top:-372px;
+	height:370px;
+	left:225px;
+	overflow:hidden;
+	z-index:350;
+}
+/* fin EVENTOS ANUALES */
+
+/*----- Deshabilitado -----
+#foto_puertadelsol{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/Cibeles.jpg);
+	background-repeat: no-repeat;
+}
+#foto_plazamayor{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Monumentos/Cibeles.jpg);
+	background-repeat: no-repeat;
+}
+#largo6{
+	float:left;
+	position:relative;
+	height:380px;
+	width:100%;
+	z-index:20;
+}
+
+#largo6 ul li p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:400;
+	font-stretch:narrower;
+	margin-top:4px;
+}
+----- Deshabilitado ----- */
+/* SOS */
+#largo6 ul li{
+	height:50px;
+}
+#largo6{
+	position:relative;
+	height:1430px;
+}
+#telcol1{
+	float:left;
+	position:relative;
+	height:40px;
+	width:50%;
+	padding-top:5px;
+
+}
+#telcol1 p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:700;
+	font-stretch:narrower;
+	margin-top:6px;
+
+}
+#telcol2{
+	float:right;
+	position:relative;
+	height:40px;
+	width:50%;
+	text-align:right;
+	
+		
+}
+#telcol2 p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:700;
+	font-stretch:narrower;
+	margin-top:15px;
+}
+
+#telcol3{
+	float:left;
+	position:relative;
+	height:40px;
+	width:90%;
+	padding:0;
+	margin:0;
+}
+#telcol3 p{
+	position:relative:
+	top:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:400;
+	font-stretch:narrower;			
+}
+#telcol3 h3{
+	position:relative:
+	font-family:Arial, Helvetica, sans-serif;
+	font-stretch:narrower;
+		
+}
+#telcol4{
+	float:right;
+	position:relative;
+	height:40px;
+	width:10%;
+	text-align:center;		
+}
+#telcol4 p{
+	position:relative;
+	top:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:700;
+	font-stretch:narrower;
+	margin-top:10px;
+	border:solid;
+	color:#000;
+	border-radius:20px;
+}
+#teltitulo{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:23px;
+	font-weight:700;
+	font-stretch:narrower;
+	margin-top:10px;
+}
+/*  FIN SOS */
+
+/* Transporte  */
+/*desde aqui de javi*/
+#foto_taxi1 img{
+	float:left;
+	position:relative;
+	height:240px;
+	top: 70px;
+	left:20px;
+	width: 31%;
+	border-radius:10px;
+	box-shadow: 3px 3px 5px #888;
+}
+#texto_cercanias{
+	width:950px;
+	margin-top:-20px;
+}
+#renfe{
+	background-image:url(images/transporte/cercanias.gif);
+	background-repeat:no-repeat;
+	text-shadow:none;
+	color:black;
+}
+#zonascercanias{
+	width:150px; 
+	position:relative;
+}
+#preciocercanias{
+	position:relative; 
+	width:150px; 
+	margin-left:130px; 
+	margin-top:-329px;
+}
+#horarioscercanias{
+	position:relative; 
+	margin-left:550px; 
+	margin-top:-300px; 
+	width:400px;
+}
+#boton_plano_cercanias{
+	position:relative;
+	margin-right:50px;
+	
+}
+.centrar{
+	text-align:center;
+}
+#europcar{
+	background-image:url(images/transporte/europcar.gif);
+	background-repeat:no-repeat;
+	text-shadow:none;
+}
+/* FIN DE TRANSPORTE */
+/*  MUSEOS */
+#foto_delprado{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/delprado.jpg);
+}
+#foto_thyssen{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/thyssen.jpg);
+}
+#foto_lopedevega{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/lopedevega.jpg);
+}
+#foto_ermitasanantonio{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/ermitasanantonio.jpg);
+}
+#foto_monasteriodescalzas{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/monasteriodescalzas.jpg);
+}
+#foto_monasterioencarnacion{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/monasterioencarnacion.jpg);
+}
+#foto_museoabc{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/museoabc.jpg);
+}
+#foto_museoamerica{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/museoamerica.jpg);
+}
+#foto_museocerralbo{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/museocerralbo.jpg);
+}
+#foto_museosanisidro{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/museosanisidro.jpg);
+}
+#foto_museogeominero{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/museogeominero.jpg);
+}
+#foto_museolazaro{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/museolazaro.jpg);
+}
+#foto_museoartepublico{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/museoartepublico.jpg);
+}
+#foto_museoartesdecorativas{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/museoartesdecorativas.jpg);
+}
+#foto_museocienciasnaturales{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/museocienciasnaturales.jpg);
+}
+#foto_museoromanticismo{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/museoromanticismo.jpg);
+}
+#foto_museofabricatapices{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/museofabricatapices.jpg);
+}
+#foto_museosorolla{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/museosorolla.jpg);
+}
+#foto_museotraje{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/museotraje.jpg);
+}
+#foto_realacademiabellasartes{
+	float: left;
+	position: relative;
+	height: 380px;
+	width: 34%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #888;
+	background-image: url(images/Museos/realacademiabellasartes.jpg);
+}
+  /*  FIN MUSEOS */
