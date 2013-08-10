@@ -4,15 +4,13 @@
     id        = "com.phonegap.example"
     version   = "1.0.0">
 
-<name>GUIA2-2013</name>
-<icon src="Icono/AppIcon.png" gap:plataform="android" gap:density="ldpi"/>
-<gap:splash src="Splash/sp.png" gap:plataform="android" gap:density="ldpi"/>
+<name>G</name>
+
 <description>
-La guía y recomendaciones del 2013.
+xx
 </description>
 <feature name="http://api.phonegap.com/1.0/geolocation"/>
-<author href="www.lcf.hol.es" email="luisk99@gmail.com">
-Luis Fiore
+<author href="www" email="luisk99@gmail.com">
 </author>
 
 </widget>
