@@ -9,7 +9,12 @@
 <description>
 xx
 </description>
+<preference name="stay-in-webview" value="false" />
+<preference name="exit-on-suspend" value="true" />
 <feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="http://api.phonegap.com/1.0/media"/>
+<feature name="http://api.phonegap.com/1.0/file"/>
 <author href="www" email="luisk99@gmail.com">
 </author>
 
